@@ -17,6 +17,7 @@ A simple task manager web application built with **ASP.NET Core MVC**, demonstra
 
 ## 🗂️ Project Structure
 
+```plaintext
 /Controllers
     TaskController.cs
 /Models
@@ -28,6 +29,7 @@ A simple task manager web application built with **ASP.NET Core MVC**, demonstra
     /Task
         Index.cshtml
         Create.cshtml
+
 
         
 ⚙️ Technology
