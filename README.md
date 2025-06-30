@@ -13,11 +13,10 @@ A simple task manager web application built with **ASP.NET Core MVC**, demonstra
 - Uses an in-memory list (no database)
 - Clean separation of UI ➝ Controller ➝ Service ➝ Data
 
----
+
 
 ## 🗂️ Project Structure
 
-```plaintext
 /Controllers
     TaskController.cs
 /Models
@@ -77,5 +76,5 @@ https://localhost:5001/Task
 ✅ Click Add Task to create a new task
 ✅ Toggle complete/incomplete from the list
 ✅ Delete tasks as needed
-
+---
 
