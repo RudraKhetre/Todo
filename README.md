@@ -67,12 +67,9 @@ Open your browser at:
 https://localhost:5001/Task
 
 🔨 Usage
+
 ✅ Click Add Task to create a new task
 ✅ Toggle complete/incomplete from the list
 ✅ Delete tasks as needed
 
-🤝 Contributing
-Pull requests are welcome! Feel free to open an issue or fork this project and submit a PR.
 
-📄 License
-This project is licensed under the MIT License.
