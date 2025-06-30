@@ -60,12 +60,15 @@ git clone https://github.com/RudraKhetre/Todo.git
 
 
 Navigate into the project:
+
 cd TaskManager
 
 Restore dependencies:
+
 dotnet restore
 
 Run the application:
+
 dotnet run
 
 Open your browser at:
