@@ -12,10 +12,11 @@ A simple task manager web application built with **ASP.NET Core MVC**, demonstra
 - Delete a task
 - Uses an in-memory list (no database)
 - Clean separation of UI ➝ Controller ➝ Service ➝ Data
-
+---
 
 
 ## 🗂️ Project Structure
+```plaintext
 
 /Controllers
     TaskController.cs
@@ -29,7 +30,7 @@ A simple task manager web application built with **ASP.NET Core MVC**, demonstra
         Index.cshtml
         Create.cshtml
 
-
+```
         
 ⚙️ Technology
 ASP.NET Core MVC (minimal, clean implementation)
