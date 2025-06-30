@@ -56,7 +56,7 @@ Task List	Add Task
 
 🏃‍♂️ How to Run
 Clone the repository:
-git clone https://github.com/yourusername/TaskManager.git
+git clone https://github.com/RudraKhetre/Todo.git
 
 
 Navigate into the project:
