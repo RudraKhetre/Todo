@@ -1,10 +1,13 @@
 ﻿@model List<Todo.Models.TodoItem>
-
-<h2>Task List</h2>
+@{
+    int index = 1;
+}
+<h2>Todo List</h2>
 <a asp-action="Create" class="btn btn-primary">Add Task</a>
-<table class="table mt-3">
+<table class="table table-bordered mt-3">
     <thead>
         <tr>
+            <th>Sr No</th>
             <th>Title</th>
             <th>Completed</th>
             <th>Actions</th>
@@ -14,17 +17,21 @@
         @foreach (var task in Model)
         {
             <tr>
+                <td>@index</td>
                 <td>@task.Title</td>
-                <td>@task.IsCompleted</td>
+                <td>
+                    @(task.IsCompleted ? "Complete" : "Incomplete")
+                </td>
                 <td>
                     <a asp-action="ToggleComplete" asp-route-id="@task.Id" class="btn btn-secondary btn-sm">
-                        Toggle Complete
+                        Mark Complete / Incomplete
                     </a>
                     <a asp-action="Delete" asp-route-id="@task.Id" class="btn btn-danger btn-sm">
                         Delete
                     </a>
                 </td>
             </tr>
+            index++;
         }
     </tbody>
 </table>
